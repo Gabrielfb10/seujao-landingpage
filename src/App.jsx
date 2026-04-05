@@ -98,14 +98,14 @@ export default function App() {
 
       {/* Botão: Mudei para fundo laranja no scroll para destacar no azul */}
       <a 
-        href={whatsappLink} 
+        href= "https://seujao-shop.vercel.app/"
         className={`px-5 py-2 rounded-lg font-bold text-[10px] tracking-widest transition-all shadow-md shrink-0 uppercase ${
           isScrolled 
           ? "bg-orange-500 text-white hover:bg-orange-600" 
           : "bg-white text-blue-900 hover:bg-orange-500 hover:text-white"
         }`}
       >
-        Entrar em contato
+        ACESSAR LOJA
       </a>
     </div>
   </div>
@@ -133,11 +133,11 @@ export default function App() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 text-center">
               <a 
-                href={whatsappLink} 
+                href= "https://seujao-shop.vercel.app/"
                 className="inline-flex items-center justify-center gap-3 bg-orange-500 text-white px-8 py-4 rounded-xl font-black text-sm uppercase tracking-[0.15em] transition-all group"
                 style={{ animation: 'blink-glow 1.5s infinite ease-in-out' }}
               >
-                <MessageCircle size={20} fill="currentColor" className="text-white"/> Chamar no WhatsApp
+                <MessageCircle size={20} fill="currentColor" className="text-white"/> COMPRAR ONLINE
               </a>
             </div>
           </div>
@@ -379,18 +379,18 @@ export default function App() {
           </div>
 
           <div className="space-y-3">
-            <h3 className="text-3xl font-black leading-none uppercase">Atendimento</h3>
+            <h3 className="text-3xl font-black leading-none uppercase">Compras</h3>
             <p className="text-blue-200 text-sm max-w-xs mx-auto">
-              Nossa equipe está pronta para te atender. Clique abaixo e fale direto no nosso WhatsApp.
+              Nosso catálogo inteinero na palma da sua mão. CLique abaixo e entre na nossa loja online.
             </p>
           </div>
 
           <a 
-            href={whatsappLink} 
+            href="https://seujao-shop.vercel.app/"
             className="bg-orange-500 hover:bg-orange-600 text-white px-10 py-5 rounded-2xl font-black text-sm uppercase tracking-widest transition-all shadow-2xl hover:scale-105 active:scale-95 flex items-center gap-3"
             style={{ animation: 'blink-glow 2s infinite' }}
           >
-             Chamar no WhatsApp <Zap size={18} fill="currentColor" />
+             COMPRAR ONLINE <Zap size={18} fill="currentColor" />
           </a>
         </div>
       </div>
