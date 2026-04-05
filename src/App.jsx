@@ -381,7 +381,7 @@ export default function App() {
           <div className="space-y-3">
             <h3 className="text-3xl font-black leading-none uppercase">Compras</h3>
             <p className="text-blue-200 text-sm max-w-xs mx-auto">
-              Nosso catálogo inteinero na palma da sua mão. CLique abaixo e entre na nossa loja online.
+              Nosso catálogo inteiro disponível na palma da sua mão. Clique abaixo e acesse nossa loja online.
             </p>
           </div>
 
